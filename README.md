@@ -3,8 +3,8 @@
 Attempt to follow create auction sniper from GOOS (Growing Object Oriented Software, Guided By Tests) and learning new technology along.
 There are couple main goals:
 - better understanding the reasoning/flows from GOOS
-- experiment with ci/cd with the assumption that every single commit would lead to code deployed to heroku
-- experiment/learning react, reactive programming
+- experiment with ci/cd (shipkit, jenkinsx) with the assumption that every single commit would lead to code deployed to heroku
+- experiment/learning react, reactive programming, jhipster
 
 The official code repository from the book located [here](https://github.com/sf105/goos-code).
 Another similar attempt located [here](https://github.com/skinny85/goos-book-code).
