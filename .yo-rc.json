@@ -24,9 +24,7 @@
     "testFrameworks": [],
     "enableTranslation": true,
     "nativeLanguage": "en",
-    "languages": [
-      "en"
-    ],
+    "languages": ["en"],
     "clientFramework": "react",
     "jhiPrefix": "jhi",
     "jhipsterVersion": "6.5.1",
@@ -36,7 +34,16 @@
     "entitySuffix": "",
     "dtoSuffix": "DTO",
     "otherModules": [],
-    "blueprints": []
+    "blueprints": [],
+    "appsFolders": ["auction-sniper"],
+    "directoryPath": "../",
+    "dockerRepositoryName": "",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "default",
+    "kubernetesServiceType": "LoadBalancer",
+    "ingressDomain": "",
+    "monitoring": "prometheus",
+    "istio": false
   },
   "git-provider": "GitHub",
   "git-company": "calgarysoftwarecrafters",

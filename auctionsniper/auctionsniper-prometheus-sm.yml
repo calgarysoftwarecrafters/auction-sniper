@@ -1,0 +1,14 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: auctionsniper-app
+  namespace: default
+  labels:
+    team: default
+spec:
+  selector:
+    matchLabels:
+      app: auctionsniper
+  endpoints:
+    - port: web
+      path: /prometheusMetrics
