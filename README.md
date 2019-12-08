@@ -1,6 +1,8 @@
 # auctionsniper
 
-This application was generated using JHipster 6.5.1, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v6.5.1](https://www.jhipster.tech/documentation-archive/v6.5.1).
+Attempt to follow create auction sniper from GOOS (Growing Object Oriented Software, Guided By Tests) and learning new technology along
+The office code repository from the book located [here](https://github.com/sf105/goos-code).
+Another similar attempt located [here](https://github.com/skinny85/goos-book-code).
 
 ## Development
 
