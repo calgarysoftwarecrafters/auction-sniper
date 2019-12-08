@@ -5,6 +5,7 @@ There are couple main goals:
 - better understanding the reasoning/flows from GOOS
 - experiment with ci/cd with the assumption that every single commit would lead to code deployed to heroku
 - experiment/learning react, reactive programming
+
 The official code repository from the book located [here](https://github.com/sf105/goos-code).
 Another similar attempt located [here](https://github.com/skinny85/goos-book-code).
 
