@@ -14,5 +14,11 @@ public class AuctionSniperEndToEndTest {
         auction.hasReceivedJoinRequestFromSniper();
         auction.announceClosed();
         application.showsSniperHasLostAuction();
+
+
+        assertThat(application.showsSniperHasLostAuction()).isEqualTo(true);
+
+
+
     }
 }
