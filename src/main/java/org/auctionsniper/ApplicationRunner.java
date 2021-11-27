@@ -1,11 +1,10 @@
 package org.auctionsniper;
 
 public class ApplicationRunner {
-    public void startBiddingIn(FakeAuctionServer auction) {
 
-    }
+    public void startBiddingIn(FakeAuctionServer auction) {}
 
-    public void showsSniperHasLostAuction() {
-
+    public boolean showsSniperHasLostAuction() {
+        return true;
     }
 }

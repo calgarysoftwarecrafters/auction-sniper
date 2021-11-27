@@ -1,9 +1,11 @@
 package org.auctionsniper;
 
+import static org.assertj.core.api.Assertions.*;
+
 import org.junit.jupiter.api.Test;
 
-
 public class AuctionSniperEndToEndTest {
+
     private final FakeAuctionServer auction = new FakeAuctionServer("item-54321");
     private final ApplicationRunner application = new ApplicationRunner();
 
@@ -15,10 +17,6 @@ public class AuctionSniperEndToEndTest {
         auction.announceClosed();
         application.showsSniperHasLostAuction();
 
-
         assertThat(application.showsSniperHasLostAuction()).isEqualTo(true);
-
-
-
     }
 }
